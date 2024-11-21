@@ -26,7 +26,7 @@ class Program
     // Упражнение 5.1
     static void Exercise5_1()
     {
-        Console.WriteLine("Упражнение 5.1");
+        Console.WriteLine("Упражнение 5.1. Наибольшее из двух чисел");
         Console.Write("Введите первое число: ");
         int a = int.Parse(Console.ReadLine());
         Console.Write("Введите второе число: ");
@@ -44,7 +44,7 @@ class Program
     // Упражнение 5.2
     static void Exercise5_2()
     {
-        Console.WriteLine("Упражнение 5.2");
+        Console.WriteLine("Упражнение 5.2. Меняет местами 2 параметра");
         Console.Write("Введите первое число: ");
         int x = int.Parse(Console.ReadLine());
         Console.Write("Введите второе число: ");
@@ -63,7 +63,7 @@ class Program
     // Упражнение 5.3
     static void Exercise5_3()
     {
-        Console.WriteLine("Упражнение 5.3");
+        Console.WriteLine("Упражнение 5.3. Вычисление факториала");
         Console.Write("Введите число для вычисления факториала: ");
         int number = int.Parse(Console.ReadLine());
         if (CalculateFactorial(number, out long factorialResult))
@@ -100,7 +100,7 @@ class Program
     // Упражнение 5.4
     static void Exercise5_4()
     {
-        Console.WriteLine("Упражнение 5.4");
+        Console.WriteLine("Упражнение 5.4. Вычмсление факториала(рекурсивно)");
         Console.Write("Введите число для вычисления факториала(рекурсивно): ");
         int number = int.Parse(Console.ReadLine());
         long recursiveResult = RecursiveFactorial(number);
@@ -117,7 +117,7 @@ class Program
     // Домашнее задание 5.1
     static void Homework5_1()
     {
-        Console.WriteLine("Домашнее задание 5.1");
+        Console.WriteLine("Домашнее задание 5.1. НОД двух чисел");
         Console.Write("Введите первое натуральное число: ");
         int firstNumber = int.Parse(Console.ReadLine());
         Console.Write("Введите второе натуральное число: ");
@@ -151,7 +151,7 @@ class Program
     // Домашнее задание 5.2
     static void Homework5_2()
     {
-        Console.WriteLine("Домашнее задание 5.2");
+        Console.WriteLine("Домашнее задание 5.2. Ряд Фибоначчи");
         Console.Write("Введите номер n (n >= 1): ");
         int n = int.Parse(Console.ReadLine());
         long fibonacciResult = Fibonacci(n);
